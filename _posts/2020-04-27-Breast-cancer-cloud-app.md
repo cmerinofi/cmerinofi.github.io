@@ -21,17 +21,18 @@ The architecture of the system is as follows:
 Firstly, the problem was tested on an standalone system, and after selecting the best model, the ELM, they implemented it on cloud with different configurations.
 
 Here is a quick breakdown of how bumping up the resources impacted their top accuracy (specifically when running 250 hidden nodes):
-<div align="center">
+
 | vCPUs | RAM (GB) | Top Accuracy |
 | :--- | :--- | :--- |
 | 4 | 16 | 0.9648 |
 | 8 | 32 | 0.9758 |
 | 16 | 64 | 0.9824 |
 | 36 | 60 | 0.9868 |
-</div>
+
 ## Why Bother with the Cloud?
 
-{: .box-success} **Note on Performance:** You might wonder if network overhead makes cloud deployment slower. Actually, because the cloud has resources in bulk, the execution time for the model dropped from 3.35 seconds on a standalone computer down to just 2.81 seconds in the cloud.
+{: .box-note}
+**Note on Performance:** You might wonder if network overhead makes cloud deployment slower. Actually, because the cloud has resources in bulk, the execution time for the model dropped from 3.35 seconds on a standalone computer down to just 2.81 seconds in the cloud.
 
 As the table shows, the use of more resources on cloud improved a little bit the final result. All the benefits of the cloud with the fact that the precision and computation time improved, made them stick to this approach.
 This will also allow them to scale the system in the future, implementing better models, with more features and options, and this architecture will make it easy to deploy.
