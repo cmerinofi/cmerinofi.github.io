@@ -40,4 +40,4 @@ This will also allow them to scale the system in the future, implementing better
 
 
 ## Reference
-Lahoura, V., Singh, H., Aggarwal, A., Sharma, B., Mohammed, M. A., Damaševičius, R., Kadry, S., & Cengiz, K. (2021). Cloud Computing-Based Framework for Breast Cancer Diagnosis Using Extreme Learning Machine. Diagnostics, 11(2), 241. https://doi.org/10.3390/diagnostics11020241
+Lahoura, V., Singh, H., Aggarwal, A., Sharma, B., Mohammed, M. A., Damaševičius, R., Kadry, S., & Cengiz, K. (2021). Cloud Computing-Based Framework for Breast Cancer Diagnosis Using Extreme Learning Machine. Diagnostics, 11(2), 241. [https://doi.org/10.3390/diagnostics11020241](https://doi.org/10.3390/diagnostics11020241)
